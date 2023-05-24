@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func fun(a int, b int) (int, int) {
+    var r1 = a + b
+    var r2 = a - b
+    return r1, r2
+}
+
+func main() {
+    var a int = 2
+    var b int = 3
+    r1, r2 := fun(a, b)
+    fmt.Println(r1, r2)
+}
+
+// Output: 5,-1
+
