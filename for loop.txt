@@ -1,0 +1,16 @@
+package main
+import "fmt"
+
+func main(){
+   i := 1 
+   for i<= 5 {
+       fmt.Println("Hi naveen",i);
+       i++
+   }
+}
+// Output:
+// Hi naveen 1
+// Hi naveen 2
+// Hi naveen 3
+// Hi naveen 4
+// Hi naveen 5
